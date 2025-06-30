@@ -7,8 +7,7 @@ import json
 import os 
 import pandas as pd
 from flask import Flask, render_template, request, send_file
-
-from predict import get_prediction
+from .predict import get_prediction
 
 app = Flask(__name__)
 
